@@ -1,5 +1,3 @@
-Inside <body> … </body>, below the H1 heading, paste this exact block:
-
 <h2>Unit details</h2>
 
 <table style="width:100%">
