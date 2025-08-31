@@ -7,11 +7,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Header / Navigation -->
     <header>
         <h1>Welcome to Deakin Unit Page</h1>
+        <nav>
+            <a href="#unit-details">Unit Details</a> |
+            <a href="#fees">Fees</a> |
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
-    <main>
+    <!-- Unit Description Section -->
+    <section id="unit-description">
+        <h2>About this Unit</h2>
+        <p>
+            This unit provides students with the fundamental concepts and practical 
+            skills required in web development. Topics include HTML, CSS, JavaScript, 
+            and responsive design.
+        </p>
+        <p id="fees">
+            For detailed information about course fees, please visit 
+            <a href="https://www.deakin.edu.au/fees" target="_blank">Fees Information</a>.
+        </p>
+        <p><strong>Hurdle Requirement:</strong> Students must achieve at least 50% in the final assessment to pass this unit.</p>
+    </section>
+
+    <!-- Table Section -->
+    <main id="unit-details">
         <h2>Unit details</h2>
         <table style="width:100%">
             <tr>
@@ -33,9 +56,10 @@
         </table>
     </main>
 
-    <footer>
+    <!-- Footer -->
+    <footer id="contact">
         <p>&copy; 2023 Deakin University</p>
     </footer>
+
 </body>
 </html>
-
