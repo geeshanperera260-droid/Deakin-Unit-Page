@@ -66,4 +66,33 @@ th, td {
 tr:nth-child(odd) {
   background-color: #f2f2f2;
 }
+/* Top bar like the screenshot */
+.topbar {
+  background: #0F6D74;      /* teal */
+  height: 110px;            /* tall bar */
+  position: relative;       /* for absolute logo positioning */
+}
+
+
+.logo {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background: #fff;         
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+  object-fit: contain;
+}
+
+
+.page-title {
+  margin: 18px 0 14px 8px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #111;
+}
 
